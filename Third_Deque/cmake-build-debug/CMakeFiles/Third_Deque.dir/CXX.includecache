@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vlad/CLionProjects/Third_Deque/main.cpp
+iostream
+-
+vector
+-
+test_runner.h
+C:/Users/vlad/CLionProjects/Third_Deque/test_runner.h
+
+C:/Users/vlad/CLionProjects/Third_Deque/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

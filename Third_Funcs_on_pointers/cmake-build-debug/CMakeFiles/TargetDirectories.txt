@@ -1,0 +1,3 @@
+C:/Users/vlad/CLionProjects/Third_Funcs_on_pointers/cmake-build-debug/CMakeFiles/Third_Funcs_on_pointers.dir
+C:/Users/vlad/CLionProjects/Third_Funcs_on_pointers/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vlad/CLionProjects/Third_Funcs_on_pointers/cmake-build-debug/CMakeFiles/rebuild_cache.dir

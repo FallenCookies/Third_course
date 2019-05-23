@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vlad/CLionProjects/Third_Aviascanner_update/airline_ticket.h
+string
+-
+
+C:/Users/vlad/CLionProjects/Third_Aviascanner_update/main.cpp
+airline_ticket.h
+C:/Users/vlad/CLionProjects/Third_Aviascanner_update/airline_ticket.h
+test_runner.h
+C:/Users/vlad/CLionProjects/Third_Aviascanner_update/test_runner.h
+iostream
+-
+string
+-
+
+C:/Users/vlad/CLionProjects/Third_Aviascanner_update/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

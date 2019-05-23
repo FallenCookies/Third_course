@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vlad/CLionProjects/Third_My_Vector/main.cpp
+simple_vector.h
+C:/Users/vlad/CLionProjects/Third_My_Vector/simple_vector.h
+test_runner.h
+C:/Users/vlad/CLionProjects/Third_My_Vector/test_runner.h
+algorithm
+-
+iostream
+-
+vector
+-
+string
+-
+
+C:/Users/vlad/CLionProjects/Third_My_Vector/simple_vector.h
+cstdlib
+-
+algorithm
+-
+
+C:/Users/vlad/CLionProjects/Third_My_Vector/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

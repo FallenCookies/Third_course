@@ -1,0 +1,3 @@
+C:/Users/vlad/CLionProjects/Third_Booking/cmake-build-debug/CMakeFiles/Third_Booking.dir
+C:/Users/vlad/CLionProjects/Third_Booking/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vlad/CLionProjects/Third_Booking/cmake-build-debug/CMakeFiles/rebuild_cache.dir

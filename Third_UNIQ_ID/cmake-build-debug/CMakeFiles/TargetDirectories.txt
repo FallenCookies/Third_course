@@ -1,0 +1,3 @@
+C:/Users/vlad/CLionProjects/Third_UNIQ_ID/cmake-build-debug/CMakeFiles/Third_UNIQ_ID.dir
+C:/Users/vlad/CLionProjects/Third_UNIQ_ID/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/vlad/CLionProjects/Third_UNIQ_ID/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vlad/CLionProjects/Third_Funcs_on_pointers/main.cpp
+test_runner.h
+C:/Users/vlad/CLionProjects/Third_Funcs_on_pointers/test_runner.h
+algorithm
+-
+numeric
+-
+
+C:/Users/vlad/CLionProjects/Third_Funcs_on_pointers/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

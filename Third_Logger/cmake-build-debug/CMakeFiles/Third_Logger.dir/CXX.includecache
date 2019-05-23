@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/vlad/CLionProjects/Third_Logger/logger.cpp
+test_runner.h
+C:/Users/vlad/CLionProjects/Third_Logger/test_runner.h
+sstream
+-
+string
+-
+algorithm
+-
+string
+-
+
+C:/Users/vlad/CLionProjects/Third_Logger/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+
