@@ -15,76 +15,63 @@ template <typename TAirport>
 class AirportCounter {
 public:
     // конструктор по умолчанию: список элементов пока пуст
-    AirportCounter();
+    AirportCounter(){
+
+    }
 
     // конструктор от диапазона элементов типа TAirport
     template <typename TIterator>
-
     AirportCounter(TIterator begin, TIterator end){
-        TAirport t;
-        size_t a=int(TAirport::Last_);
-        //TODO Iteration on enum
-//        for (int i = 0; i < ; ++i) {
-//            cout<<"kek"<<endl;
-//        }
         for(auto it=begin;it<end;it++){
-            db[*it]+=1;
+            count[static_cast<int>(*it)]+=1;
         }
     }
 
     // получить количество элементов, равных данному
     size_t Get(TAirport airport) const{
-        try{
-            return db.at(airport);
-        }catch(exception& e){
-            return 0;
-        }
+            return count[int(airport)];
     }
 
-    // добавить данный элемент
+//     добавить данный элемент
     void Insert(TAirport airport){
-        db[airport]+=1;
+        count[int(airport)]+=1;
     }
 
-    // удалить одно вхождение данного элемента
+//     удалить одно вхождение данного элемента
     void EraseOne(TAirport airport){
-        try{
-            db.at(airport)-=1;
-        }catch(exception& e){
-
-        }
+        count[int(airport)]-=1;
     }
 
-    // удалить все вхождения данного элемента
+//     удалить все вхождения данного элемента
     void EraseAll(TAirport airport){
-        db.erase(airport);
+        count[static_cast<int>(airport)]=0;
     }
 
     using Item = pair<TAirport, size_t>;
-    using Items =  map<TAirport,size_t>;
+    using Items = array<Item,int(TAirport::Last_)> ;
 
-    friend bool operator<(pair<TAirport, size_t> lhs,pair<TAirport, size_t> rhs){
-        return lhs.first<rhs.first;
-    }
+//    friend bool operator<(pair<TAirport, size_t> lhs,pair<TAirport, size_t> rhs){
+//        return lhs.first<rhs.first;
+//    }
+
     // получить некоторый объект, по которому можно проитерироваться,
     // получив набор объектов типа Item - пар (аэропорт, количество),
     // упорядоченных по аэропорту
      Items GetItems() const{
-        return db;
-    }
-    void Show(){
-        int i=0;
-        for(auto x:db){
-            cout<<i<<" = "<<x.second<<endl;
-            i++;
+        array<Item,int(TAirport::Last_)> ans;
+        for(int i = 0; i <int(TAirport::Last_); ++i)
+        {
+            ans[i] = {static_cast<TAirport>(i), count[i]};
         }
+        return ans;
     }
-
 
 private:
-    map<TAirport,size_t> db;
+    array<int,int(TAirport::Last_)> count={0};
+
+
 };
-//
+
 void TestMoscow() {
     enum class MoscowAirport {
         VKO,
@@ -110,7 +97,7 @@ void TestMoscow() {
 
     using Item = AirportCounter<MoscowAirport>::Item;
     vector<Item> items;
-    airport_counter.Show();
+//    airport_counter.Show();
     for (const auto& item : airport_counter.GetItems()) {
         items.push_back(item);
     }
@@ -155,91 +142,92 @@ enum class SmallCountryAirports {
     Airport_15,
     Last_
 };
-//
-//void TestManyConstructions() {
-//    default_random_engine rnd(20180623);
-//    uniform_int_distribution<size_t> gen_airport(
-//            0, static_cast<size_t>(SmallCountryAirports::Last_) - 1
-//    );
-//
-//    array<SmallCountryAirports, 2> airports;
-//    for (auto& x : airports) {
-//        x = static_cast<SmallCountryAirports>(gen_airport(rnd));
-//    }
-//
-//    uint64_t total = 0;
-//    for (int step = 0; step < 100'000'000; ++step) {
-//        AirportCounter<SmallCountryAirports> counter(begin(airports), end(airports));
-//        total += counter.Get(SmallCountryAirports::Airport_1);
-//    }
-//    // Assert to use variable total so that compiler doesn't optimize it out
-//    ASSERT(total < 1000);
-//}
-//
-//enum class SmallTownAirports {
-//    Airport_1,
-//    Airport_2,
-//    Last_
-//};
-//
-//void TestManyGetItems() {
-//    default_random_engine rnd(20180701);
-//    uniform_int_distribution<size_t> gen_airport(
-//            0, static_cast<size_t>(SmallTownAirports::Last_) - 1
-//    );
-//
-//    array<SmallTownAirports, 2> airports;
-//    for (auto& x : airports) {
-//        x = static_cast<SmallTownAirports>(gen_airport(rnd));
-//    }
-//
-//    uint64_t total = 0;
-//    for (int step = 0; step < 100'000'000; ++step) {
-//        AirportCounter<SmallTownAirports> counter(begin(airports), end(airports));
-//        total += counter.Get(SmallTownAirports::Airport_1);
-//        for (const auto [airport, count] : counter.GetItems()) {
-//            total += count;
-//        }
-//    }
-//    // Assert to use variable total so that compiler doesn't optimize it out
-//    ASSERT(total > 0);
-//}
-//
-//void TestMostPopularAirport() {
-//    default_random_engine rnd(20180624);
-//    uniform_int_distribution<size_t> gen_airport(
-//            0, static_cast<size_t>(SmallCountryAirports::Last_) - 1
-//    );
-//
-//    array<pair<SmallCountryAirports, SmallCountryAirports>, 1000> dayly_flight_report;
-//    for (auto& x : dayly_flight_report) {
-//        x = {
-//                static_cast<SmallCountryAirports>(gen_airport(rnd)),
-//                static_cast<SmallCountryAirports>(gen_airport(rnd))
-//        };
-//    }
-//
-//    const int days_to_explore = 365 * 500;
-//
-//    vector<SmallCountryAirports> most_popular(days_to_explore);
-//
-//    for (int day = 0; day < days_to_explore; ++day) {
-//        AirportCounter<SmallCountryAirports> counter;
-//        for (const auto& [source, dest] : dayly_flight_report) {
-//            counter.Insert(source);
-//            counter.Insert(dest);
-//        }
-//
-//        const auto items = counter.GetItems();
-//        most_popular[day] = max_element(begin(items), end(items), [](auto lhs, auto rhs) {
-//            return lhs.second < rhs.second;
-//        })->first;
-//    }
-//
-//    ASSERT(all_of(begin(most_popular), end(most_popular), [&](SmallCountryAirports a) {
-//        return a == most_popular.front();
-//    }));
-//}
+
+void TestManyConstructions() {
+    default_random_engine rnd(20180623);
+    uniform_int_distribution<size_t> gen_airport(
+            0, static_cast<size_t>(SmallCountryAirports::Last_) - 1
+    );
+
+    array<SmallCountryAirports, 2> airports;
+    for (auto& x : airports) {
+        x = static_cast<SmallCountryAirports>(gen_airport(rnd));
+    }
+
+    uint64_t total = 0;
+    for (int step = 0; step < 100'000'000; ++step) {
+        AirportCounter<SmallCountryAirports> counter(begin(airports), end(airports));
+        total += counter.Get(SmallCountryAirports::Airport_1);
+    }
+    // Assert to use variable total so that compiler doesn't optimize it out
+
+    ASSERT(total < 1000);
+}
+
+enum class SmallTownAirports {
+    Airport_1,
+    Airport_2,
+    Last_
+};
+
+void TestManyGetItems() {
+    default_random_engine rnd(20180701);
+    uniform_int_distribution<size_t> gen_airport(
+            0, static_cast<size_t>(SmallTownAirports::Last_) - 1
+    );
+
+    array<SmallTownAirports, 2> airports;
+    for (auto& x : airports) {
+        x = static_cast<SmallTownAirports>(gen_airport(rnd));
+    }
+
+    uint64_t total = 0;
+    for (int step = 0; step < 100'000'000; ++step) {
+        AirportCounter<SmallTownAirports> counter(begin(airports), end(airports));
+        total += counter.Get(SmallTownAirports::Airport_1);
+        for (const auto [airport, count] : counter.GetItems()) {
+            total += count;
+        }
+    }
+    // Assert to use variable total so that compiler doesn't optimize it out
+    ASSERT(total > 0);
+}
+
+void TestMostPopularAirport() {
+    default_random_engine rnd(20180624);
+    uniform_int_distribution<size_t> gen_airport(
+            0, static_cast<size_t>(SmallCountryAirports::Last_) - 1
+    );
+
+    array<pair<SmallCountryAirports, SmallCountryAirports>, 1000> dayly_flight_report;
+    for (auto& x : dayly_flight_report) {
+        x = {
+                static_cast<SmallCountryAirports>(gen_airport(rnd)),
+                static_cast<SmallCountryAirports>(gen_airport(rnd))
+        };
+    }
+
+    const int days_to_explore = 365 * 500;
+
+    vector<SmallCountryAirports> most_popular(days_to_explore);
+
+    for (int day = 0; day < days_to_explore; ++day) {
+        AirportCounter<SmallCountryAirports> counter;
+        for (const auto& [source, dest] : dayly_flight_report) {
+            counter.Insert(source);
+            counter.Insert(dest);
+        }
+
+        const auto items = counter.GetItems();
+        most_popular[day] = max_element(begin(items), end(items), [](auto lhs, auto rhs) {
+            return lhs.second < rhs.second;
+        })->first;
+    }
+
+    ASSERT(all_of(begin(most_popular), end(most_popular), [&](SmallCountryAirports a) {
+        return a == most_popular.front();
+    }));
+}
 
 int main() {
     TestRunner tr;
@@ -253,8 +241,8 @@ int main() {
 
     LOG_DURATION("Total tests duration");
     RUN_TEST(tr, TestMoscow);
-//    RUN_TEST(tr, TestManyConstructions);
-//    RUN_TEST(tr, TestManyGetItems);
-//    RUN_TEST(tr, TestMostPopularAirport);
+    RUN_TEST(tr, TestManyConstructions);
+    RUN_TEST(tr, TestManyGetItems);
+    RUN_TEST(tr, TestMostPopularAirport);
     return 0;
 }

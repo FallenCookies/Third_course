@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/vlad/CLionProjects/Third_AriportCounter/main.cpp
+D:/ClionProjects/Third_course/Third_AriportCounter/main.cpp
 test_runner.h
-C:/Users/vlad/CLionProjects/Third_AriportCounter/test_runner.h
+D:/ClionProjects/Third_course/Third_AriportCounter/test_runner.h
 profile.h
-C:/Users/vlad/CLionProjects/Third_AriportCounter/profile.h
+D:/ClionProjects/Third_course/Third_AriportCounter/profile.h
 algorithm
 -
 array
@@ -24,7 +24,7 @@ vector
 set
 -
 
-C:/Users/vlad/CLionProjects/Third_AriportCounter/profile.h
+D:/ClionProjects/Third_course/Third_AriportCounter/profile.h
 chrono
 -
 iostream
@@ -32,7 +32,7 @@ iostream
 string
 -
 
-C:/Users/vlad/CLionProjects/Third_AriportCounter/test_runner.h
+D:/ClionProjects/Third_course/Third_AriportCounter/test_runner.h
 sstream
 -
 stdexcept
