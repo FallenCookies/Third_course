@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Third_Iosif" targetName="Third_Iosif" />
+      <config projectName="third_SimpleVector_assign" targetName="third_SimpleVector_assign" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,8 +11,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2f4e17a-3948-47a8-93df-b50d6d1c8304" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="686747e9-c20a-420f-a05c-830874371928" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Third_simple_vector_2/simple_vector_2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_split_into_sentenses/.idea/Third_split_into_sentenses.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_split_into_sentenses/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_split_into_sentenses/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_split_into_sentenses/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_string_split/.idea/Third_string_split.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_string_split/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_string_split/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_string_split/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/third_SimpleVector_assign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Iosif/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Iosif/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,10 +49,21 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <element signature="e#205#245#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simple_vector.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="104" />
+              <folding>
+                <element signature="e#118#130#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,6 +77,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$USER_HOME$/Pictures/tYwSAmszEei5FgrpHNEYyg_b5e1fa306b3311e8a97f951115d198a4_simple_vector_copy_assignment.cpp" />
+        <option value="$PROJECT_DIR$/simple_vector.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
@@ -69,18 +95,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Third_Iosif" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Third_Iosif" type="462c0819:PsiDirectoryNode" />
+              <item name="third_SimpleVector_assign" type="b2602c69:ProjectViewProjectNode" />
+              <item name="third_SimpleVector_assign" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -103,7 +129,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Third_Iosif" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Third_Iosif" TARGET_NAME="Third_Iosif" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Third_Iosif" RUN_TARGET_NAME="Third_Iosif">
+    <configuration name="third_SimpleVector_assign" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="third_SimpleVector_assign" TARGET_NAME="third_SimpleVector_assign" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="third_SimpleVector_assign" RUN_TARGET_NAME="third_SimpleVector_assign">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -114,29 +140,33 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f2f4e17a-3948-47a8-93df-b50d6d1c8304" name="Default Changelist" comment="" />
-      <created>1563026211617</created>
+      <changelist id="686747e9-c20a-420f-a05c-830874371928" name="Default Changelist" comment="" />
+      <created>1563105809646</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563026211617</updated>
-      <workItem from="1563026212786" duration="2926000" />
-      <workItem from="1563040566806" duration="3914000" />
-      <workItem from="1563101077193" duration="1088000" />
+      <updated>1563105809646</updated>
+      <workItem from="1563105810850" duration="3441000" />
+      <workItem from="1563120310893" duration="606000" />
+      <workItem from="1563123309086" duration="599000" />
+      <workItem from="1563786909576" duration="809000" />
+      <workItem from="1564047788771" duration="343000" />
+      <workItem from="1564062361882" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7928000" />
+    <option name="totallyTimeSpent" value="5812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25725028" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26852846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32928178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -157,24 +187,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Pictures/F-L8iY5bEeiEShL6YrwsWg_18104e108e5b11e8b7edebc903523df9_josephus_permutation.cpp">
+    <entry file="file://$USER_HOME$/Pictures/tYwSAmszEei5FgrpHNEYyg_b5e1fa306b3311e8a97f951115d198a4_simple_vector_copy_assignment.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_vector.h">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/bits/stl_construct.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/ostream">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="589" column="4" selection-start-line="589" selection-start-column="4" selection-end-line="589" selection-end-column="4" />
+          <caret selection-end-line="104" />
+          <folding>
+            <element signature="e#118#130#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -184,10 +206,9 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <element signature="e#205#245#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

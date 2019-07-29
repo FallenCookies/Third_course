@@ -1,0 +1,3 @@
+D:/ClionProjects/Third_course/Tempate/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/ClionProjects/Third_course/Tempate/cmake-build-debug/CMakeFiles/Tempate.dir
+D:/ClionProjects/Third_course/Tempate/cmake-build-debug/CMakeFiles/edit_cache.dir

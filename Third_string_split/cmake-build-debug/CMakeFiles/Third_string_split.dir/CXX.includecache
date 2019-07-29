@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ClionProjects/Third_course/Third_string_split/main.cpp
+test_runner.h
+D:/ClionProjects/Third_course/Third_string_split/test_runner.h
+profile.h
+D:/ClionProjects/Third_course/Third_string_split/profile.h
+algorithm
+-
+string
+-
+vector
+-
+set
+-
+
+D:/ClionProjects/Third_course/Third_string_split/profile.h
+chrono
+-
+iostream
+-
+string
+-
+
+D:/ClionProjects/Third_course/Third_string_split/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

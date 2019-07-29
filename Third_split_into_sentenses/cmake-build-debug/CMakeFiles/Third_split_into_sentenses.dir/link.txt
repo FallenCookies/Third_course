@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.1.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Third_split_into_sentenses.dir/objects.a
+C:\dev\mingw64\bin\ar.exe cr CMakeFiles\Third_split_into_sentenses.dir/objects.a @CMakeFiles\Third_split_into_sentenses.dir\objects1.rsp
+C:\dev\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Third_split_into_sentenses.dir/objects.a -Wl,--no-whole-archive  -o Third_split_into_sentenses.exe -Wl,--out-implib,libThird_split_into_sentenses.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Third_split_into_sentenses.dir\linklibs.rsp

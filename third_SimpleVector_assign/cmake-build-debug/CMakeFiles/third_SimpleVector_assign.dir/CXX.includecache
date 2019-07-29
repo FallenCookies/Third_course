@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ClionProjects/Third_course/third_SimpleVector_assign/main.cpp
+simple_vector.h
+D:/ClionProjects/Third_course/third_SimpleVector_assign/simple_vector.h
+test_runner.h
+D:/ClionProjects/Third_course/third_SimpleVector_assign/test_runner.h
+numeric
+-
+vector
+-
+tuple
+-
+
+D:/ClionProjects/Third_course/third_SimpleVector_assign/simple_vector.h
+cstdlib
+-
+algorithm
+-
+
+D:/ClionProjects/Third_course/third_SimpleVector_assign/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+
