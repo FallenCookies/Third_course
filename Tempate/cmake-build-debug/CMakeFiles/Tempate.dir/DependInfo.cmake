@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/ClionProjects/Third_course/Tempate/main.cpp" "D:/ClionProjects/Third_course/Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/main.cpp.obj"
+  "D:/ClionProjects/Third_course/Tempate/parse.cpp" "D:/ClionProjects/Third_course/Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/parse.cpp.obj"
+  "D:/ClionProjects/Third_course/Tempate/search_server.cpp" "D:/ClionProjects/Third_course/Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/search_server.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

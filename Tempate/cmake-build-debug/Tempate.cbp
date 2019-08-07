@@ -80,7 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/ClionProjects/Third_course/Tempate/Synhronized.h">
+			<Option target="Tempate"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/Third_course/Tempate/iterator_range.h">
+			<Option target="Tempate"/>
+		</Unit>
 		<Unit filename="D:/ClionProjects/Third_course/Tempate/main.cpp">
+			<Option target="Tempate"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/Third_course/Tempate/parse.cpp">
+			<Option target="Tempate"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/Third_course/Tempate/parse.h">
+			<Option target="Tempate"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/Third_course/Tempate/search_server.cpp">
+			<Option target="Tempate"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/Third_course/Tempate/search_server.h">
 			<Option target="Tempate"/>
 		</Unit>
 		<Unit filename="D:/ClionProjects/Third_course/Tempate/CMakeLists.txt">

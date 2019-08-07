@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Third_Final_task" targetName="Third_Final_task" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cf07bc95-f2d0-431f-9da5-1aea860edeaf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Third_Final_task.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_Paginator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_priority_collection/.idea/Third_priority_collection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_priority_collection/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_priority_collection/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_priority_collection/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_syncrhonized/.idea/Third_syncrhonized.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_syncrhonized/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_syncrhonized/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Third_syncrhonized/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third_concurrent_map/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third_concurrent_map/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third_concurrent_map/.idea/third_concurrent_map.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../third_concurrent_map/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/Tempate.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/cmake-build-debug/Tempate.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/cmake-build-debug/Tempate.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tempate/test_runner.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Tempate/test_runner.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Merge_sort_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Merge_sort_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Merge_sort_2/cmake-build-debug/CMakeFiles/Third_Merge_sort_2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Merge_sort_2/cmake-build-debug/CMakeFiles/Third_Merge_sort_2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Merge_sort_2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Merge_sort_2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/3.10.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/Third_Paginator.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/Third_Paginator.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/Third_Paginator.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Third_Paginator/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1144">
+              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_runner.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/search_server.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <element signature="e#14#32#0" expanded="true" />
+                <element signature="e#182#194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parse.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parse.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search_server.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iterator_range.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/bits/basic_string.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19448">
+              <caret line="884" selection-start-line="884" selection-end-line="884" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/search_server.cpp" />
+        <option value="$PROJECT_DIR$/search_server.h" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="90" />
+    <option name="y" value="175" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Third_Final_task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Third_Final_task" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Third_Final_task" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Third_Final_task" TARGET_NAME="Third_Final_task" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Third_Final_task" RUN_TARGET_NAME="Third_Final_task">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf07bc95-f2d0-431f-9da5-1aea860edeaf" name="Default Changelist" comment="" />
+      <created>1564677355548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564677355548</updated>
+      <workItem from="1564677356821" duration="867000" />
+      <workItem from="1564678688118" duration="143000" />
+      <workItem from="1564748104137" duration="3315000" />
+      <workItem from="1564751452368" duration="8510000" />
+      <workItem from="1565001706857" duration="55000" />
+      <workItem from="1565025328958" duration="143000" />
+      <workItem from="1565025494431" duration="252000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13285000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27228788" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32928178" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32928178" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://C:/Temp/Rar$DIa0.956/iterator_range.h" />
+    <entry file="file://C:/dev/mingw64/x86_64-w64-mingw32/include/ntgdi.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="307" column="50" selection-start-line="307" selection-start-column="50" selection-end-line="307" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/ext/new_allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2728">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/bits/shared_ptr_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/ext/atomicity.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/bits/move.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Temp/Rar$DIa0.018/search_server.cpp" />
+    <entry file="file://C:/Temp/Rar$DIa0.561/search_server.h" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parse.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iterator_range.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/dev/mingw64/lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19448">
+          <caret line="884" selection-start-line="884" selection-end-line="884" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_runner.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_server.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="e#14#32#0" expanded="true" />
+            <element signature="e#182#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_server.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

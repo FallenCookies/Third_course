@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ClionProjects/Third_course/Third_Matrix_sum/main.cpp
+test_runner.h
+D:/ClionProjects/Third_course/Third_Matrix_sum/test_runner.h
+vector
+-
+future
+-
+algorithm
+-
+numeric
+-
+profile.h
+D:/ClionProjects/Third_course/Third_Matrix_sum/profile.h
+
+D:/ClionProjects/Third_course/Third_Matrix_sum/profile.h
+chrono
+-
+iostream
+-
+string
+-
+
+D:/ClionProjects/Third_course/Third_Matrix_sum/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

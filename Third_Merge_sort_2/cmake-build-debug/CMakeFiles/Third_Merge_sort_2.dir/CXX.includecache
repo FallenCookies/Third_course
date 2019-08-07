@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ClionProjects/Third_course/Third_Merge_sort_2/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+test_runner.h
+D:/ClionProjects/Third_course/Third_Merge_sort_2/test_runner.h
+
+D:/ClionProjects/Third_course/Third_Merge_sort_2/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

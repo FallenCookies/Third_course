@@ -9,7 +9,68 @@
 #include <vector>
 
 using namespace std;
+template <typename Type>
+class IteratorRange_{
+private:
+    Type first,last;
+public:
+    IteratorRange_(Type f,Type l):first(f),last(l){
+    }
+    size_t size()const {
+        return last-first;
+    }
+    Type begin()const{
+        return first;
+    }
+    Type end()const{
+        return last;
+    }
+};
+template <typename Iterator>
+class Paginator {
+private:
 
+    Iterator first,last;
+    size_t page_size;
+    vector <IteratorRange_<Iterator>> pages;
+
+public:
+    Paginator(Iterator begin_,Iterator end_, size_t page_size_):first(begin_),last(end_),
+                                                                page_size(page_size_){
+        int count=0;
+        auto last_it=begin_;
+        if(begin_!=end_) {
+            for (auto cur_it = begin_; cur_it <= end_; cur_it++) {
+                if (count == page_size_ || cur_it == end_) {
+                    pages.push_back(IteratorRange_(last_it, cur_it));
+                    count = 1;
+                    last_it = cur_it;
+                } else {
+                    count++;
+                }
+
+
+            }
+        }
+
+
+
+    }
+    auto begin() const{
+        return pages.begin();
+    }
+    auto end() const{
+        return pages.end();
+    }
+    size_t size() const{
+        return pages.size();
+    }
+
+};
+template <typename C>
+auto Paginate(C& c, size_t page_size) {
+    return Paginator{c.begin(),c.end(),page_size};
+}
 template <class T>
 ostream& operator << (ostream& os, const vector<T>& s) {
   os << "{";

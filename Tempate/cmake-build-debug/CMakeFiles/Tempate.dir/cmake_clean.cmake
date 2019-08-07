@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tempate.dir/main.cpp.obj"
+  "CMakeFiles/Tempate.dir/parse.cpp.obj"
+  "CMakeFiles/Tempate.dir/search_server.cpp.obj"
   "Tempate.pdb"
   "Tempate.exe"
   "Tempate.exe.manifest"

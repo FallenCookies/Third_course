@@ -149,6 +149,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Tempate.dir\build.make CMakeFiles/Tempate.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+parse.obj: parse.cpp.obj
+
+.PHONY : parse.obj
+
+# target to build an object file
+parse.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tempate.dir\build.make CMakeFiles/Tempate.dir/parse.cpp.obj
+.PHONY : parse.cpp.obj
+
+parse.i: parse.cpp.i
+
+.PHONY : parse.i
+
+# target to preprocess a source file
+parse.cpp.i:
+	$(MAKE) -f CMakeFiles\Tempate.dir\build.make CMakeFiles/Tempate.dir/parse.cpp.i
+.PHONY : parse.cpp.i
+
+parse.s: parse.cpp.s
+
+.PHONY : parse.s
+
+# target to generate assembly for a file
+parse.cpp.s:
+	$(MAKE) -f CMakeFiles\Tempate.dir\build.make CMakeFiles/Tempate.dir/parse.cpp.s
+.PHONY : parse.cpp.s
+
+search_server.obj: search_server.cpp.obj
+
+.PHONY : search_server.obj
+
+# target to build an object file
+search_server.cpp.obj:
+	$(MAKE) -f CMakeFiles\Tempate.dir\build.make CMakeFiles/Tempate.dir/search_server.cpp.obj
+.PHONY : search_server.cpp.obj
+
+search_server.i: search_server.cpp.i
+
+.PHONY : search_server.i
+
+# target to preprocess a source file
+search_server.cpp.i:
+	$(MAKE) -f CMakeFiles\Tempate.dir\build.make CMakeFiles/Tempate.dir/search_server.cpp.i
+.PHONY : search_server.cpp.i
+
+search_server.s: search_server.cpp.s
+
+.PHONY : search_server.s
+
+# target to generate assembly for a file
+search_server.cpp.s:
+	$(MAKE) -f CMakeFiles\Tempate.dir\build.make CMakeFiles/Tempate.dir/search_server.cpp.s
+.PHONY : search_server.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +215,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... parse.obj
+	@echo ... parse.i
+	@echo ... parse.s
+	@echo ... search_server.obj
+	@echo ... search_server.i
+	@echo ... search_server.s
 .PHONY : help
 
 

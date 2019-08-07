@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/vlad/CLionProjects/Third_Paginator
+# Install script for directory: D:/ClionProjects/Third_course/Third_Paginator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/vlad/CLionProjects/Third_Paginator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/ClionProjects/Third_course/Third_Paginator/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

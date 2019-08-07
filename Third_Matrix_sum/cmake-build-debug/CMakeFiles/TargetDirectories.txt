@@ -1,0 +1,3 @@
+D:/ClionProjects/Third_course/Third_Matrix_sum/cmake-build-debug/CMakeFiles/Third_Matrix_sum.dir
+D:/ClionProjects/Third_course/Third_Matrix_sum/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ClionProjects/Third_course/Third_Matrix_sum/cmake-build-debug/CMakeFiles/rebuild_cache.dir

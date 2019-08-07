@@ -244,6 +244,12 @@ Tempate_BINARY_DIR:STATIC=D:/ClionProjects/Third_course/Tempate/cmake-build-debu
 //Value Computed by CMake
 Tempate_SOURCE_DIR:STATIC=D:/ClionProjects/Third_course/Tempate
 
+//Value Computed by CMake
+Third_Final_task_BINARY_DIR:STATIC=D:/ClionProjects/Third_course/Tempate/cmake-build-debug
+
+//Value Computed by CMake
+Third_Final_task_SOURCE_DIR:STATIC=D:/ClionProjects/Third_course/Tempate
+
 
 ########################
 # INTERNAL cache entries
